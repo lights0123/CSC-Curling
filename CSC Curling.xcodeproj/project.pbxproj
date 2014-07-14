@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D6E1C4D19747C8200153C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C4C19747C8200153C23 /* Foundation.framework */; };
+		4D6E1C4F19747C8200153C23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C4E19747C8200153C23 /* CoreGraphics.framework */; };
+		4D6E1C5119747C8200153C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C5019747C8200153C23 /* UIKit.framework */; };
+		4D6E1C5719747C8200153C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E1C5519747C8200153C23 /* InfoPlist.strings */; };
+		4D6E1C5919747C8200153C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E1C5819747C8200153C23 /* main.m */; };
+		4D6E1C5D19747C8300153C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E1C5C19747C8300153C23 /* AppDelegate.m */; };
+		4D6E1C6019747C8300153C23 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E1C5E19747C8300153C23 /* Main_iPhone.storyboard */; };
+		4D6E1C6319747C8300153C23 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E1C6119747C8300153C23 /* Main_iPad.storyboard */; };
+		4D6E1C6619747C8300153C23 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E1C6519747C8300153C23 /* FirstViewController.m */; };
+		4D6E1C6919747C8300153C23 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E1C6819747C8300153C23 /* SecondViewController.m */; };
+		4D6E1C6B19747C8300153C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E1C6A19747C8300153C23 /* Images.xcassets */; };
+		4D6E1C7219747C8300153C23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C7119747C8300153C23 /* XCTest.framework */; };
+		4D6E1C7319747C8300153C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C4C19747C8200153C23 /* Foundation.framework */; };
+		4D6E1C7419747C8300153C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C5019747C8200153C23 /* UIKit.framework */; };
+		4D6E1C7C19747C8300153C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E1C7A19747C8300153C23 /* InfoPlist.strings */; };
+		4D6E1C7E19747C8300153C23 /* CSC_CurlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E1C7D19747C8300153C23 /* CSC_CurlingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6E1C7519747C8300153C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6E1C4119747C8200153C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6E1C4819747C8200153C23;
+			remoteInfo = "CSC Curling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D6E1C4919747C8200153C23 /* CSC Curling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSC Curling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6E1C4C19747C8200153C23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D6E1C4E19747C8200153C23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D6E1C5019747C8200153C23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D6E1C5419747C8200153C23 /* CSC Curling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSC Curling-Info.plist"; sourceTree = "<group>"; };
+		4D6E1C5619747C8200153C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D6E1C5819747C8200153C23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D6E1C5A19747C8200153C23 /* CSC Curling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSC Curling-Prefix.pch"; sourceTree = "<group>"; };
+		4D6E1C5B19747C8200153C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D6E1C5C19747C8300153C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D6E1C5F19747C8300153C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4D6E1C6219747C8300153C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4D6E1C6419747C8300153C23 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4D6E1C6519747C8300153C23 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4D6E1C6719747C8300153C23 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D6E1C6819747C8300153C23 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4D6E1C6A19747C8300153C23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D6E1C7019747C8300153C23 /* CSC CurlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSC CurlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6E1C7119747C8300153C23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D6E1C7919747C8300153C23 /* CSC CurlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSC CurlingTests-Info.plist"; sourceTree = "<group>"; };
+		4D6E1C7B19747C8300153C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D6E1C7D19747C8300153C23 /* CSC_CurlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSC_CurlingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D6E1C4619747C8200153C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6E1C4F19747C8200153C23 /* CoreGraphics.framework in Frameworks */,
+				4D6E1C5119747C8200153C23 /* UIKit.framework in Frameworks */,
+				4D6E1C4D19747C8200153C23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6E1C6D19747C8300153C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6E1C7219747C8300153C23 /* XCTest.framework in Frameworks */,
+				4D6E1C7419747C8300153C23 /* UIKit.framework in Frameworks */,
+				4D6E1C7319747C8300153C23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D6E1C4019747C8100153C23 = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C5219747C8200153C23 /* CSC Curling */,
+				4D6E1C7719747C8300153C23 /* CSC CurlingTests */,
+				4D6E1C4B19747C8200153C23 /* Frameworks */,
+				4D6E1C4A19747C8200153C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D6E1C4A19747C8200153C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C4919747C8200153C23 /* CSC Curling.app */,
+				4D6E1C7019747C8300153C23 /* CSC CurlingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6E1C4B19747C8200153C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C4C19747C8200153C23 /* Foundation.framework */,
+				4D6E1C4E19747C8200153C23 /* CoreGraphics.framework */,
+				4D6E1C5019747C8200153C23 /* UIKit.framework */,
+				4D6E1C7119747C8300153C23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6E1C5219747C8200153C23 /* CSC Curling */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C5B19747C8200153C23 /* AppDelegate.h */,
+				4D6E1C5C19747C8300153C23 /* AppDelegate.m */,
+				4D6E1C5E19747C8300153C23 /* Main_iPhone.storyboard */,
+				4D6E1C6119747C8300153C23 /* Main_iPad.storyboard */,
+				4D6E1C6419747C8300153C23 /* FirstViewController.h */,
+				4D6E1C6519747C8300153C23 /* FirstViewController.m */,
+				4D6E1C6719747C8300153C23 /* SecondViewController.h */,
+				4D6E1C6819747C8300153C23 /* SecondViewController.m */,
+				4D6E1C6A19747C8300153C23 /* Images.xcassets */,
+				4D6E1C5319747C8200153C23 /* Supporting Files */,
+			);
+			path = "CSC Curling";
+			sourceTree = "<group>";
+		};
+		4D6E1C5319747C8200153C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C5419747C8200153C23 /* CSC Curling-Info.plist */,
+				4D6E1C5519747C8200153C23 /* InfoPlist.strings */,
+				4D6E1C5819747C8200153C23 /* main.m */,
+				4D6E1C5A19747C8200153C23 /* CSC Curling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D6E1C7719747C8300153C23 /* CSC CurlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C7D19747C8300153C23 /* CSC_CurlingTests.m */,
+				4D6E1C7819747C8300153C23 /* Supporting Files */,
+			);
+			path = "CSC CurlingTests";
+			sourceTree = "<group>";
+		};
+		4D6E1C7819747C8300153C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E1C7919747C8300153C23 /* CSC CurlingTests-Info.plist */,
+				4D6E1C7A19747C8300153C23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6E1C4819747C8200153C23 /* CSC Curling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6E1C8119747C8300153C23 /* Build configuration list for PBXNativeTarget "CSC Curling" */;
+			buildPhases = (
+				4D6E1C4519747C8200153C23 /* Sources */,
+				4D6E1C4619747C8200153C23 /* Frameworks */,
+				4D6E1C4719747C8200153C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSC Curling";
+			productName = "CSC Curling";
+			productReference = 4D6E1C4919747C8200153C23 /* CSC Curling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6E1C6F19747C8300153C23 /* CSC CurlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6E1C8419747C8300153C23 /* Build configuration list for PBXNativeTarget "CSC CurlingTests" */;
+			buildPhases = (
+				4D6E1C6C19747C8300153C23 /* Sources */,
+				4D6E1C6D19747C8300153C23 /* Frameworks */,
+				4D6E1C6E19747C8300153C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6E1C7619747C8300153C23 /* PBXTargetDependency */,
+			);
+			name = "CSC CurlingTests";
+			productName = "CSC CurlingTests";
+			productReference = 4D6E1C7019747C8300153C23 /* CSC CurlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D6E1C4119747C8200153C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ben Schattinger";
+				TargetAttributes = {
+					4D6E1C6F19747C8300153C23 = {
+						TestTargetID = 4D6E1C4819747C8200153C23;
+					};
+				};
+			};
+			buildConfigurationList = 4D6E1C4419747C8200153C23 /* Build configuration list for PBXProject "CSC Curling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D6E1C4019747C8100153C23;
+			productRefGroup = 4D6E1C4A19747C8200153C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6E1C4819747C8200153C23 /* CSC Curling */,
+				4D6E1C6F19747C8300153C23 /* CSC CurlingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D6E1C4719747C8200153C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6E1C6319747C8300153C23 /* Main_iPad.storyboard in Resources */,
+				4D6E1C6B19747C8300153C23 /* Images.xcassets in Resources */,
+				4D6E1C6019747C8300153C23 /* Main_iPhone.storyboard in Resources */,
+				4D6E1C5719747C8200153C23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6E1C6E19747C8300153C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6E1C7C19747C8300153C23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6E1C4519747C8200153C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6E1C6919747C8300153C23 /* SecondViewController.m in Sources */,
+				4D6E1C5D19747C8300153C23 /* AppDelegate.m in Sources */,
+				4D6E1C6619747C8300153C23 /* FirstViewController.m in Sources */,
+				4D6E1C5919747C8200153C23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6E1C6C19747C8300153C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6E1C7E19747C8300153C23 /* CSC_CurlingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D6E1C7619747C8300153C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6E1C4819747C8200153C23 /* CSC Curling */;
+			targetProxy = 4D6E1C7519747C8300153C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D6E1C5519747C8200153C23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6E1C5619747C8200153C23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D6E1C5E19747C8300153C23 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6E1C5F19747C8300153C23 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6E1C6119747C8300153C23 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6E1C6219747C8300153C23 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6E1C7A19747C8300153C23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6E1C7B19747C8300153C23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D6E1C7F19747C8300153C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D6E1C8019747C8300153C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D6E1C8219747C8300153C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSC Curling/CSC Curling-Prefix.pch";
+				INFOPLIST_FILE = "CSC Curling/CSC Curling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D6E1C8319747C8300153C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSC Curling/CSC Curling-Prefix.pch";
+				INFOPLIST_FILE = "CSC Curling/CSC Curling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D6E1C8519747C8300153C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSC Curling.app/CSC Curling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSC Curling/CSC Curling-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CSC CurlingTests/CSC CurlingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D6E1C8619747C8300153C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSC Curling.app/CSC Curling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSC Curling/CSC Curling-Prefix.pch";
+				INFOPLIST_FILE = "CSC CurlingTests/CSC CurlingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6E1C4419747C8200153C23 /* Build configuration list for PBXProject "CSC Curling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6E1C7F19747C8300153C23 /* Debug */,
+				4D6E1C8019747C8300153C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6E1C8119747C8300153C23 /* Build configuration list for PBXNativeTarget "CSC Curling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6E1C8219747C8300153C23 /* Debug */,
+				4D6E1C8319747C8300153C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D6E1C8419747C8300153C23 /* Build configuration list for PBXNativeTarget "CSC CurlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6E1C8519747C8300153C23 /* Debug */,
+				4D6E1C8619747C8300153C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D6E1C4119747C8200153C23 /* Project object */;
+}
