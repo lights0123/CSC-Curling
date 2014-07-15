@@ -23,6 +23,11 @@
 		4D6E1C7419747C8300153C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C5019747C8200153C23 /* UIKit.framework */; };
 		4D6E1C7C19747C8300153C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E1C7A19747C8300153C23 /* InfoPlist.strings */; };
 		4D6E1C7E19747C8300153C23 /* CSC_CurlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E1C7D19747C8300153C23 /* CSC_CurlingTests.m */; };
+		4DCB07F6197493FD00E621E4 /* calendar-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB07F5197493FD00E621E4 /* calendar-32.png */; };
+		4DCB07F81974AA7B00E621E4 /* trophy-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB07F71974AA7B00E621E4 /* trophy-32.png */; };
+		4DCB07FA1974AB0400E621E4 /* video_camera-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB07F91974AB0400E621E4 /* video_camera-32.png */; };
+		4DCB07FC1974AB4400E621E4 /* settings-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB07FB1974AB4400E621E4 /* settings-32.png */; };
+		4DCB07FE1974AB7B00E621E4 /* info-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB07FD1974AB7B00E621E4 /* info-32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,11 @@
 		4D6E1C7919747C8300153C23 /* CSC CurlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSC CurlingTests-Info.plist"; sourceTree = "<group>"; };
 		4D6E1C7B19747C8300153C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D6E1C7D19747C8300153C23 /* CSC_CurlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSC_CurlingTests.m; sourceTree = "<group>"; };
+		4DCB07F5197493FD00E621E4 /* calendar-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-32.png"; sourceTree = "<group>"; };
+		4DCB07F71974AA7B00E621E4 /* trophy-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trophy-32.png"; sourceTree = "<group>"; };
+		4DCB07F91974AB0400E621E4 /* video_camera-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera-32.png"; sourceTree = "<group>"; };
+		4DCB07FB1974AB4400E621E4 /* settings-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-32.png"; sourceTree = "<group>"; };
+		4DCB07FD1974AB7B00E621E4 /* info-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +144,11 @@
 		4D6E1C5319747C8200153C23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DCB07FD1974AB7B00E621E4 /* info-32.png */,
+				4DCB07FB1974AB4400E621E4 /* settings-32.png */,
+				4DCB07F91974AB0400E621E4 /* video_camera-32.png */,
+				4DCB07F71974AA7B00E621E4 /* trophy-32.png */,
+				4DCB07F5197493FD00E621E4 /* calendar-32.png */,
 				4D6E1C5419747C8200153C23 /* CSC Curling-Info.plist */,
 				4D6E1C5519747C8200153C23 /* InfoPlist.strings */,
 				4D6E1C5819747C8200153C23 /* main.m */,
@@ -238,8 +253,13 @@
 			files = (
 				4D6E1C6319747C8300153C23 /* Main_iPad.storyboard in Resources */,
 				4D6E1C6B19747C8300153C23 /* Images.xcassets in Resources */,
+				4DCB07F81974AA7B00E621E4 /* trophy-32.png in Resources */,
 				4D6E1C6019747C8300153C23 /* Main_iPhone.storyboard in Resources */,
+				4DCB07FE1974AB7B00E621E4 /* info-32.png in Resources */,
+				4DCB07F6197493FD00E621E4 /* calendar-32.png in Resources */,
+				4DCB07FC1974AB4400E621E4 /* settings-32.png in Resources */,
 				4D6E1C5719747C8200153C23 /* InfoPlist.strings in Resources */,
+				4DCB07FA1974AB0400E621E4 /* video_camera-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +496,7 @@
 				4D6E1C8319747C8300153C23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D6E1C8419747C8300153C23 /* Build configuration list for PBXNativeTarget "CSC CurlingTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +505,7 @@
 				4D6E1C8619747C8300153C23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
