@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D17B1B81977521E004FBDD7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17B1B71977521E004FBDD7 /* TableViewController.m */; };
+		4D17B1BB19789008004FBDD7 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17B1BA19789008004FBDD7 /* TableCell.m */; };
+		4D17B1BE19789666004FBDD7 /* TableViewControllerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17B1BD19789666004FBDD7 /* TableViewControllerSettings.m */; };
+		4D17B1C11978A81D004FBDD7 /* TableCellSett.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17B1C01978A81D004FBDD7 /* TableCellSett.m */; };
 		4D6E1C4D19747C8200153C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C4C19747C8200153C23 /* Foundation.framework */; };
 		4D6E1C4F19747C8200153C23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C4E19747C8200153C23 /* CoreGraphics.framework */; };
 		4D6E1C5119747C8200153C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6E1C5019747C8200153C23 /* UIKit.framework */; };
@@ -41,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D17B1B61977521E004FBDD7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		4D17B1B71977521E004FBDD7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		4D17B1B919789008004FBDD7 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		4D17B1BA19789008004FBDD7 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		4D17B1BC19789666004FBDD7 /* TableViewControllerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerSettings.h; sourceTree = "<group>"; };
+		4D17B1BD19789666004FBDD7 /* TableViewControllerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerSettings.m; sourceTree = "<group>"; };
+		4D17B1BF1978A81D004FBDD7 /* TableCellSett.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellSett.h; sourceTree = "<group>"; };
+		4D17B1C01978A81D004FBDD7 /* TableCellSett.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellSett.m; sourceTree = "<group>"; };
 		4D6E1C4919747C8200153C23 /* CSC Curling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSC Curling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6E1C4C19747C8200153C23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D6E1C4E19747C8200153C23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,6 +115,7 @@
 				4D6E1C4A19747C8200153C23 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		4D6E1C4A19747C8200153C23 /* Products */ = {
 			isa = PBXGroup;
@@ -127,9 +140,17 @@
 		4D6E1C5219747C8200153C23 /* CSC Curling */ = {
 			isa = PBXGroup;
 			children = (
+				4D17B1B61977521E004FBDD7 /* TableViewController.h */,
+				4D17B1B71977521E004FBDD7 /* TableViewController.m */,
+				4D17B1B919789008004FBDD7 /* TableCell.h */,
+				4D17B1BF1978A81D004FBDD7 /* TableCellSett.h */,
+				4D17B1C01978A81D004FBDD7 /* TableCellSett.m */,
+				4D17B1BA19789008004FBDD7 /* TableCell.m */,
 				4D6E1C5B19747C8200153C23 /* AppDelegate.h */,
 				4D6E1C5C19747C8300153C23 /* AppDelegate.m */,
 				4D6E1C5E19747C8300153C23 /* Main_iPhone.storyboard */,
+				4D17B1BC19789666004FBDD7 /* TableViewControllerSettings.h */,
+				4D17B1BD19789666004FBDD7 /* TableViewControllerSettings.m */,
 				4D6E1C6119747C8300153C23 /* Main_iPad.storyboard */,
 				4D6E1C6419747C8300153C23 /* FirstViewController.h */,
 				4D6E1C6519747C8300153C23 /* FirstViewController.m */,
@@ -278,10 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D17B1BB19789008004FBDD7 /* TableCell.m in Sources */,
 				4D6E1C6919747C8300153C23 /* SecondViewController.m in Sources */,
+				4D17B1C11978A81D004FBDD7 /* TableCellSett.m in Sources */,
 				4D6E1C5D19747C8300153C23 /* AppDelegate.m in Sources */,
 				4D6E1C6619747C8300153C23 /* FirstViewController.m in Sources */,
+				4D17B1B81977521E004FBDD7 /* TableViewController.m in Sources */,
 				4D6E1C5919747C8200153C23 /* main.m in Sources */,
+				4D17B1BE19789666004FBDD7 /* TableViewControllerSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSC Curling/CSC Curling-Prefix.pch";
 				INFOPLIST_FILE = "CSC Curling/CSC Curling-Info.plist";
@@ -429,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSC Curling/CSC Curling-Prefix.pch";
 				INFOPLIST_FILE = "CSC Curling/CSC Curling-Info.plist";
