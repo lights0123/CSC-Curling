@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "TableCell.h"
+#import "DetailViewController.h"
 
 @interface TableViewController ()
 
@@ -69,6 +70,15 @@
     cell.TitleLabel.text=_Title[row];
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+	if([[segue identifier] isEqualToString:@"ShowDetails"]){
+		DetailViewController *detailviewcontroller=[segue destinationViewController];
+		NSIndexPath *myIndexPath=[self.tableView indexPathForSelectedRow];
+		int row=[myIndexPath row];
+		detailviewcontroller.DetailModal=@[_Title[row]];
+	}
 }
 
 
